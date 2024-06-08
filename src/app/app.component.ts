@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Istd } from './shared/models/students.interface';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AppTestRxjs';
+
 }
